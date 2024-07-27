@@ -101,17 +101,16 @@ li span {
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
-.add{
-    background: linear-gradient(90deg, #01fdfd 0%, #5756ff 35%, #cc00ff 100%);
+.add {
+  background: linear-gradient(90deg, #01fdfd 0%, #5756ff 35%, #cc00ff 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
-.style{
+.style {
   display: flex;
   justify-content: space-between;
-  
 }
 #todo-list-container {
   height: 350px;
@@ -127,16 +126,15 @@ li span {
   border: 1px solid #ddd;
   padding: 10px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 .gradient-text {
   background: linear-gradient(
     to right,
     red,
     orange,
-    /* yellow, */
-    green,
-    /* blue, */
-    indigo,
+    /* yellow, */ green,
+    /* blue, */ indigo,
     violet
   );
   background-clip: text;
