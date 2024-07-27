@@ -44,7 +44,7 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 form {
-  width: 685px;
+  width: 682px;
   height: 51px;
   border: none;
   display: flex;
@@ -62,7 +62,7 @@ form .text {
   border-radius: 8px;
 }
 .btn {
-  width: 94px;
+  width: 97px;
   height: 100%;
   font-weight: 400;
   font-size: 20px;
@@ -101,6 +101,18 @@ li span {
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
+.add{
+    background: linear-gradient(90deg, #01fdfd 0%, #5756ff 35%, #cc00ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.style{
+  display: flex;
+  justify-content: space-between;
+  
+}
 #todo-list-container {
   height: 350px;
   width: 685px;
@@ -123,7 +135,7 @@ li span {
     orange,
     /* yellow, */
     green,
-    blue,
+    /* blue, */
     indigo,
     violet
   );
