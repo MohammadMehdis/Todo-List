@@ -15,7 +15,9 @@ document.addEventListener("DOMContentLoaded", () => {
       saveTodoToLocalStorage(newTodo);
       todoInput.value = "";
     } else {
-      alert("Input field cannot be empty.");
+      alert(`hello 🤗
+ Please do not leave it blank😤
+Please note that you cannot add an empty task to the task list. Submitting the form without entering text will register the list of contentless tasks that can be managed and sorted tasks. To improve the experience and maintain data quality, be sure to enter a valid title for each new task. It helps you manage your to-do list automatically and efficiently.`);
     }
   });
 
