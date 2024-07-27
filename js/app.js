@@ -1,3 +1,4 @@
+'use strict'
 document.addEventListener("DOMContentLoaded", () => {
   const todoInput = document.getElementById("todo-input");
   const todoListContainer = document.getElementById("todo-list");
@@ -9,7 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
   todoForm.addEventListener("submit", (event) => {
     event.preventDefault();
     const newTodo = todoInput.value.trim();
-
     if (newTodo) {
       addTodoToDOM(newTodo);
       saveTodoToLocalStorage(newTodo);
@@ -37,7 +37,6 @@ Please note that you cannot add an empty task to the task list. Submitting the f
                 `;
     todoListContainer.appendChild(li);
   }
-
   function saveTodoToLocalStorage(todo) {
     savedTodos.push(todo);
     localStorage.setItem("todos", JSON.stringify(savedTodos));
